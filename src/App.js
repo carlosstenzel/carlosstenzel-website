@@ -1,11 +1,19 @@
-import React from 'react';
+import React from "react";
+import GlobalStyle from "./styles/global";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+
 
 
 function App() {
   return (
-    <div >
-      
-    </div>
+    <>
+      <GlobalStyle />
+      <Header />
+      <Home />
+      <Footer />
+    </>
   );
 }
 
