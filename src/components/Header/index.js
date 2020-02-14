@@ -1,27 +1,27 @@
 import React, { Component } from "react";
 
-import { Container } from "./styles";
+import { Profile, Details, Social } from "./styles";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default class Header extends Component {
   render() {
     return (
-      <Container>
-        <div className="profile">
+      <header>
+        <Profile>
           <img
             src="https://avatars3.githubusercontent.com/u/3890516?v=4"
             alt="Carlos Stenzel"
           />
-        </div>
-        <div className="details">
+        </Profile>
+        <Details>
           <h2>Carlos Stenzel</h2>
           <h3>Full Stack Developer</h3>
           <p>
             Passionate about Javascript, ReactJS, React Native, NodeJS and the
             whole ecosystem around these technologies..
           </p>
-        </div>
-        <div className="social">
+        </Details>
+        <Social>
           <ul>
             <li>
               <a
@@ -51,8 +51,8 @@ export default class Header extends Component {
               </a>
             </li>
           </ul>
-        </div>
-      </Container>
+        </Social>
+      </header>
     );
   }
 }
