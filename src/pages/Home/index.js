@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+
+
 import {
   FaReact,
   FaHtml5,
@@ -353,11 +355,6 @@ export default class Home extends Component {
           <ul>
             <li>
               <p>
-                <span>2019</span> - <strong>GoStack</strong> - Rocketseat
-              </p>
-            </li>
-            <li>
-              <p>
                 <span>2019</span> -{" "}
                 <strong>Administração e Finanças / Neuroaprendizagem</strong> -
                 São Braz
@@ -372,6 +369,21 @@ export default class Home extends Component {
             </li>
           </ul>
         </div>
+        <div>
+          <h4>Courses</h4>
+          <ul>
+            <li>
+              <p><span>2019</span> - <strong>GoStack</strong> - Rocketseat</p>
+            </li>
+            <li>
+              <p><span>2019</span> - <strong>NodeJs for Beginners</strong> - EW.IT</p>
+            </li>
+
+            <li>
+              <p><span>2014</span> - <strong>Curso de Mainframe</strong> - União Latino-Americana de Tecnologia - Curitiba</p>
+            </li>
+          </ul>
+          </div>
       </Container>
     );
   }

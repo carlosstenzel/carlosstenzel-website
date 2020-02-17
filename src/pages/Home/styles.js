@@ -15,7 +15,7 @@ export const Container = styled.div`
   }
 
   h4 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 100;
     border-bottom: 2.5px solid #fe655f;
     padding: 5px;
@@ -25,6 +25,10 @@ export const Container = styled.div`
   li {
     padding: 3px;
     font-size: 1.3rem;
+  }
+
+  ul {
+    margin-bottom: 20px;
   }
 
   .skill {
