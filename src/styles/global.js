@@ -60,13 +60,6 @@ const GlobalStyle = createGlobalStyle`
     opacity: 1;
   }
 
-
-
-
-  .social {
-   
-  }
-
 `;
 
 export default GlobalStyle;

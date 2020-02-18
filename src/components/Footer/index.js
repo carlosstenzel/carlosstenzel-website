@@ -1,9 +1,15 @@
-import React, { Component } from "react";
+import React from 'react';
 
-// import { Container } from './styles';
+import { FaRegHeart } from "react-icons/fa";
 
-export default class Footer extends Component {
-  render() {
-    return <div />;
-  }
+import { Container } from './styles';
+
+export default function Footer() {
+  return (
+    <Container>
+      <p>
+       Made with <FaRegHeart /> - By <a href="https://carlosstenzel.com/">Carlos Stenzel</a> 
+      </p>
+    </Container>
+  );
 }

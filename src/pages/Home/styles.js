@@ -42,16 +42,15 @@ export const Container = styled.div`
       justify-content: space-between;
     }
 
-   p {
-     float: left;
-   }
+    p {
+      float: left;
+    }
 
     svg {
       color: #fe655f;
       margin-right: 10px;
     }
     .level {
-
       float: right;
       margin-right: 20%;
 
@@ -68,6 +67,40 @@ export const Container = styled.div`
       svg {
         color: #444;
         font-size: 18px;
+      }
+    }
+  }
+
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    list-style: none;
+    color: #444;
+
+    li {
+      display: flex;
+      flex-direction: column;
+      background: #ededed;
+      border-radius: 4px;
+      padding: 15px;
+
+      img {
+        align-self: center;
+        width: 100%;
+      }
+
+      p {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 10px;
+        span {
+          margin-right: 10px;
+        }
+        svg {
+          color: #fe655f;
+          margin-top: 5px;
+        }
       }
     }
   }
