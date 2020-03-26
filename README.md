@@ -1,6 +1,6 @@
 # Template portfolio using react.js, styled-components
 
-![alt text](.git/Screen.png "Screen")
+![alt text](.assets/Screen.png "Screen")
 
 ## Available Scripts
 
