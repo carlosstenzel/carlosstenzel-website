@@ -32,7 +32,7 @@ export default class Home extends Component {
           <ul>
             <Skill name="Node.JS" icon={<FaNodeJs />} level="3" />
             <Skill name="JavaScript" icon={<DiJavascript1 />} level="4" />
-            <Skill name="FireBase" icon={<DiFirebase />} level="2" />
+            <Skill name="FireBase" icon={<DiFirebase />} level="3" />
             <Skill name="React.JS" icon={<FaReact />} level="4" />
             <Skill name="React Native" icon={<FaReact />} level="3" />
             <Skill name="MySQL" icon={<DiMysql />} level="4" />
