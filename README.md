@@ -1,4 +1,6 @@
-Project profile Carlos Stenzel
+# Template portfolio using react.js, styled-components
+
+![alt text](.git/Screen.png "Screen")
 
 ## Available Scripts
 
