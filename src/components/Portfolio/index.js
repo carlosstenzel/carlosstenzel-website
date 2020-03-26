@@ -10,7 +10,7 @@ import Port_CodeHamper from "../../assets/port_codehamper.png";
 export default function Portfolio() {
   return (
     <div>
-      <h4>Portofolio</h4>
+      <h4>Portfolio</h4>
       <ul className="portfolio">
         <li>
           <img src={Port_CarlosStenzel} alt="Carlos Stenzel" />
