@@ -15,10 +15,12 @@ export const Profile = styled.div`
 `;
 
 export const Details = styled.div`
-  h2 {
+  text-align: center;
+
+  h1 {
     color: #fff;
     font-size: 3rem;
-    font-weight: 400;
+    font-weight: 100;
     margin-bottom: 3px;
   }
 
@@ -37,12 +39,15 @@ export const Details = styled.div`
 `;
 
 export const Social = styled.div`
+  text-align: center;
+
   li {
-    margin-bottom: 13px;
+    display: inline;
 
     svg {
       color: #fff;
       font-size: 34px;
+      margin-right: 10px;
     }
 
     a:hover svg {

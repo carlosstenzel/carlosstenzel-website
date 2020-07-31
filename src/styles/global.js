@@ -1,5 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
+import BackgroundImg from '../assets/background.jpg';
+
 const GlobalStyle = createGlobalStyle`
 
   * {
@@ -13,13 +15,11 @@ const GlobalStyle = createGlobalStyle`
     outline:0;
   }
 
-  html, body, #root {
-    height: 100%;
-  }
-
   body{
     -webkit-font-smoothing: antialiased;
-    background: #232a44;
+    background-color: #232a44;
+    background: url(${BackgroundImg}) no-repeat center center fixed; 
+    background-size: cover;  
   }
 
   body, input, button {
@@ -45,19 +45,11 @@ const GlobalStyle = createGlobalStyle`
   }
 
   header{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
     align-items: center;
-    margin-top: 50px;
-    background: #232a44;
-    padding: 40px;
-    box-shadow: 1px 2.5px 4px 2.5px #0e101c;
-    opacity: 0.7;
-    transition: opacity 2s;
-  }
-
-  header:hover {
-    opacity: 1;
+    margin-top: 20%;
+    background: rgba(18, 22, 34, 0.76);
+    padding: 40px 20px;    
   }
 
 `;

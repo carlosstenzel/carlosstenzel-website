@@ -1,25 +1,17 @@
 import React, { Component } from "react";
 
-import { Profile, Details, Social } from "./styles";
+import { Details, Social } from "./styles";
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default class Header extends Component {
   render() {
     return (
       <header>
-        <Profile>
-          <img
-            src="https://avatars3.githubusercontent.com/u/3890516?v=4"
-            alt="Carlos Stenzel"
-          />
-        </Profile>
+       
         <Details>
-          <h2>Carlos Stenzel</h2>
-          <h3>Full Stack Developer</h3>
-          <p>
-            Passionate about Javascript, ReactJS, React Native, NodeJS and the
-            whole ecosystem around these technologies..
-          </p>
+          <h1>Carlos Alberto Barbosa Stenzel</h1>
+          <h3>Software Engineer</h3>
+          
         </Details>
         <Social>
           <ul>
