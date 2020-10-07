@@ -10,7 +10,7 @@ export default class Header extends Component {
        
         <Details>
           <h1>Carlos Alberto Barbosa Stenzel</h1>
-          <h3>Software Engineer</h3>
+          <h3>Frontend Developer</h3>
           
         </Details>
         <Social>
