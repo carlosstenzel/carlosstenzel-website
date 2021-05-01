@@ -1,7 +1,4 @@
-# Template portfolio using react.js, styled-components
-
-![alt text](.assets/Screen.png "Screen")
-
+# Template portfolio carlosstenzel.com
 ## Available Scripts
 
 In the project directory, you can run:
