@@ -68,10 +68,10 @@ function HomePage() {
       <Emblemas>
         <div>
           <div className="image">
-            <img src="/trailhead/expeditioner.png" alt="MOUNTAINEER" />
+            <img src="/trailhead/ranger.png" alt="RANGER" />
           </div>
           <div className="detalhes">
-            <h3>EXPEDITIONER</h3>
+            <h3>RANGER</h3>
             <p>Trailhead</p>
           </div>
         </div>
